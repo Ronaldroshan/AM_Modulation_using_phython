@@ -35,10 +35,10 @@ Program
 import numpy as np
 import matplotlib.pyplot as plt
 Am = 4.9
-fm = 894
+fm = 384
 Ac = 9.8
-fc = 3800
-fs = 38000
+fc = 3840
+fs = 38400
 t = np.arange(0, 3/fm, 1/fs)
 m = Am * np.cos(2 * np.pi * fm * t)
 c = Ac * np.cos(2 * np.pi * fc * t)
